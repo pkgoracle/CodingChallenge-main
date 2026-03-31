@@ -5,7 +5,7 @@ If an existing DbContext and migration are required, follow the current structur
 **Implementation**
 Code Segregation for Clean Architecture
 
-API Layer: Controllers and frontend business logic. Added Api versioning for backword compatabilities.
+API Layer: Controllers and frontend business logic. Added Api versioning for backword compatabilities. Instead of Get/Put/Delete using Post only for all actions for better security of request data.
 Data Layer: All models and DTOs.
 Service Layer: Business logic and security (e.g., encryption, decryption, masking).
 EF Layer: Entity Framework context and database execution.
